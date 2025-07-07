@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const NodeCache = require("node-cache");
 
-const cache = new NodeCache({ stdTTL: 1800 });
+const cache = new NodeCache({ stdTTL: 3600 });
 
 const getProductsData = () => {
   const productsPath = path.join(__dirname, "../data/products.json");
