@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Engagement Ring 1",
+    "popularityScore": 0.5,
+    "weight": 2.5,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG085-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 2",
+    "popularityScore": 0.8,
+    "weight": 3.0,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG086-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG086-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG086-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 3",
+    "popularityScore": 0.9,
+    "weight": 2.8,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG087-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG087-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG087-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 4",
+    "popularityScore": 0.88,
+    "weight": 3.5,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG088-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG088-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG088-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 5",
+    "popularityScore": 0.8,
+    "weight": 2.2,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG089-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG089-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG089-100P-R.jpg?v=1696588368"
+    } 
+  },
+  {
+    "name": "Engagement Ring 6",
+    "popularityScore": 0.82,
+    "weight": 1.9,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG090-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG090-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG090-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 7",
+    "popularityScore": 0.7,
+    "weight": 4.0,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG091-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG091-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG091-100P-R.jpg?v=1696588368"
+    }
+  },
+  {
+    "name": "Engagement Ring 8",
+    "popularityScore": 0.9,
+    "weight": 3.2,
+    "images": {
+      "yellow": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG092-100P-Y.jpg?v=1696588368",
+      "white": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG092-100P-W.jpg?v=1696588368",
+      "rose": "https://cdn.shopify.com/s/files/1/0484/1429/4167/files/EG092-100P-R.jpg?v=1696588368"
+    }
+  }
+]

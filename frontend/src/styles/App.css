@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  font-family: 'Avenir', 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+.app-content {
+  flex: 1;
+  padding: 30px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  background-color: #fff0f0;
+  border-left: 4px solid #ff6b6b;
+  padding: 15px;
+  margin: 20px 0;
+  color: #d63031;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .app-content {
+    padding: 20px 10px;
+  }
+} 

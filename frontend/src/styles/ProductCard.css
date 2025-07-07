@@ -1,0 +1,143 @@
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 15px;
+  max-width: 250px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-info {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-family: 'Avenir', 'Montserrat', sans-serif;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.color-options {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.color-option {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-option.selected {
+  border-color: #333;
+}
+
+.color-name {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 7px;
+}
+
+.product-rating {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.star.full {
+  color: #FFD700;
+}
+
+.star.half {
+  position: relative;
+  color: #E0E0E0;
+}
+
+.star.half:before {
+  content: '★';
+  position: absolute;
+  color: #FFD700;
+  width: 50%;
+  overflow: hidden;
+}
+
+.star.empty {
+  color: #E0E0E0;
+}
+
+.rating-text {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+  .product-image {
+    height: 180px;
+  }
+  
+  .product-title {
+    font-size: 0.95rem;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+  }
+} 
