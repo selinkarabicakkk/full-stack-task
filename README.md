@@ -20,6 +20,13 @@ This is a full-stack web application featuring a backend API to serve product in
 - **Responsive Design**: The layout adapts to different screen sizes for a seamless experience on any device.
 - **Client-Side Filtering**: Interactive sliders to filter products by price range and minimum popularity score.
 
+## Live Demo
+
+The application is deployed on Vercel:
+
+- **Frontend**: [https://diamond-bliss-frontend.vercel.app/](https://diamond-bliss-frontend.vercel.app/)
+- **Backend API**: [https://diamond-bliss-backend.vercel.app/api/products](https://diamond-bliss-backend.vercel.app/api/products)
+
 ## Technologies Used
 
 - **Backend**: Node.js, Express
@@ -28,6 +35,7 @@ This is a full-stack web application featuring a backend API to serve product in
 - **Packages**:
   - **Backend**: `axios`, `cors`, `express`
   - **Frontend**: `axios`, `react`, `react-dom`, `react-scripts`, `react-slick`
+- **Deployment**: Vercel
 
 ## Project Structure
 
@@ -75,7 +83,11 @@ npm start
 
 The frontend will be running at `http://localhost:3000`.
 
+When deploying, the frontend uses an environment variable `REACT_APP_API_URL` to connect to the live backend.
+
 ## API Endpoints
+
+The API is hosted on Vercel. All endpoints are relative to `https://diamond-bliss-backend.vercel.app`.
 
 - `GET /api/products`
 
@@ -86,4 +98,4 @@ The frontend will be running at `http://localhost:3000`.
     - `maxPrice` (number): Maximum price for the desired range.
     - `minPopularity` (number): Minimum popularity score (from 0 to 5).
 
-  - **Example**: `GET /api/products?minPrice=1000&maxPrice=5000&minPopularity=4`
+  - **Example**: `https://diamond-bliss-backend.vercel.app/api/products?minPrice=1000&maxPrice=5000`
